@@ -5,15 +5,17 @@
   text-align: center;
 }
 
+.month-selector {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .month-name {
   font-size: 2rem;
 }
 
-.day-names {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-}
-
+.day-names,
 .days {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
